@@ -1,3 +1,8 @@
+export const metadata = {
+    title: 'Dashboard | Learn NextJS',
+    description: 'Learn NextJS & Practice next app',
+  }
+
 import React from 'react';
 
 const DashboardPage = () => {

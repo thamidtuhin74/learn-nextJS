@@ -1,3 +1,7 @@
+export const metadata = {
+    title: 'Add Product | Dashboard | Learn NextJS',
+    description: 'Learn NextJS & Practice next app',
+  }
 import React from 'react';
 
 const AddProductPage = () => {
