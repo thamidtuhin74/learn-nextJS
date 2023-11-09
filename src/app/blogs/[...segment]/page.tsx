@@ -5,11 +5,13 @@ export const metadata = {
 
 import React from 'react';
 
-const SingleBlog = ({ params}) => {
+const SingleBlog = ({ params }) => {
     // console.log(params.id);
+    //distructuring
+    const [year , id] = params.segment || [];
     return (
         <div>
-            SingleBlog Page {params.id}
+            SingleBlog Page {year} for {id}
         </div>
     );
 };
