@@ -7,7 +7,7 @@ import React from 'react';
 
 const SingleBlog = ({ params }) => {
     // console.log(params.id);
-    //distructuring
+    //distructuring code
     const [year , id] = params.segment || [];
     return (
         <div>
